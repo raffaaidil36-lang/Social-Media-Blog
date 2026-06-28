@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: hsl(0, 0%, 8%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+        }
+        article {
+            background-color: hsl(0, 0%, 12%);
+            padding: 1.75rem;
+            border-radius: 1.5rem;
+            border: 1px solid #dddddd52;
+            width: 20rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+        }
+        article img {
+            width: 5rem;
+            height: 5rem;
+            object-fit: cover;
+            object-position: left;
+            border-radius: 100%;
+        }
+        .social-media {
+            background-color: hsl(0, 0%, 20%);
+            color: hsl(0, 0%, 100%);
+            font-weight: bold;
+            padding: 1rem 4rem;
+            border-radius: 0.5rem;
+            display: flex;
+            justify-content: center;
+            align-self: stretch;
+            margin: 0;
+        }
+        .social-media:hover {
+            background-color: hsl(75, 94%, 57%);
+            color: hsl(0, 0%, 8%);
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #name, #addres, #details {
+            display: flex;
+            justify-content: center;
+        }
+        #name {
+            color: hsl(0, 0%, 100%);
+            font-weight: bold;
+            font-size: 1.75rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.25rem;
+        }
+        #addres {
+            color: hsl(75, 94%, 57%);
+            font-weight: bold;
+            margin-top: -0.5rem;
+            font-size: 1.10rem;
+        }
+        #details {
+            color: hsl(0, 0%, 69%);
+            margin-top: -0.15rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <article>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLftoN4pG9uC172RrnW5ZQa04d0Wxx4EZ9zzZJF6tVjQ&s=10" alt="Images">
+                <p id="name">Muhammad Raffa Aidil</p>
+                <p id="addres">Pekanbaru, Indonesian</p>
+                <p id="details">"Frontend Developer and UI/UX Desaigner"</p>
+                <p class="social-media">Github</p>
+                <p class="social-media">Frontend Mentor</p>
+                <p class="social-media">LinkedIn</p>
+                <p class="social-media">Twitter</p>
+                <p class="social-media">Instagram</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
